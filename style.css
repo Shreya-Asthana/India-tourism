@@ -1,0 +1,150 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #263062;
+    color: #fe9744;
+    padding: 1rem;
+    
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #d2058e;
+    text-decoration: none;
+}
+nav ul li :hover {
+    color:#ffe600
+}
+
+.hero-image {
+    height:auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fd6254;
+    width: auto;        
+}
+.hero-image h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #05848a;
+    color: #ffe600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #263062;
+}
+
+.about-content {
+    padding: 2rem;
+}
+
+.destination-content {
+    padding: 2rem;
+}
+.destination-content h2{
+    color:#d2058e;
+    text-align: left;
+    padding: 1rem;
+}
+
+.destination-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.destination-cards img {
+    max-width: 95%;
+    border-radius: 20px;
+}
+
+.contact-content {
+    padding: 2rem;
+}
+.contact-content h2{
+    color:#d2058e;
+    text-align: left;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #263062;
+    color: #ffac68;
+    text-align: center;
+    padding: 1rem;
+}
+.about-content{
+    padding:2rem;
+   
+}
+.about-content h2 {
+    color:#d2058e;
+    text-align: left;
+    padding: 1rem;
+}
+
+.contact-content a {
+    text-align: center;
+    padding: 1rem;
+    color:#05848a;
+}
+.destination-cards:hover{
+    border-radius: 0px;
+    
+}
+.varanasi :hover{
+    box-shadow:10px 5px 10px #fd6254 ;
+}
+.haridwar :hover{
+    box-shadow:10px 5px 10px #fe9744 ;
+}
+.jaipur :hover{
+    box-shadow:10px 5px 10px #d2058e ;
+}
+.mysore :hover{
+    box-shadow:10px 5px 10px #05848a ;
+}
+.mumbai :hover{
+    box-shadow:10px 5px 10px #448bfe ;
+}
+.sikkim :hover{
+    box-shadow:10px 5px 10px #8954fd ;
+}
+.logo img{
+    float: left;
+    max-width: 20%;
+}
